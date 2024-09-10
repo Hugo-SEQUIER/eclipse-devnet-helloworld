@@ -41,7 +41,7 @@ echo
 sudo apt install build-essential
 npm install
 npm run build:program-rust
-solana program deploy dist/program/solana-hugo-helloworld.so
+solana program deploy dist/program/solana_hugo_helloworld.so
 npm run start
 
 echo
