@@ -54,7 +54,7 @@ const PROGRAM_SO_PATH = path.join(PROGRAM_PATH, 'solana-hugo-helloworld.so');
  * Path to the keypair of the deployed program.
  * This file is created when running `solana program deploy dist/program/solana-hugo-helloworld.so`
  */
-const PROGRAM_KEYPAIR_PATH = path.join(PROGRAM_PATH, 'solana-hugo-helloworld.json');
+const PROGRAM_KEYPAIR_PATH = path.join(PROGRAM_PATH, 'solana-hugo-helloworld-keypair.json');
 
 /**
  * The state of a greeting account managed by the hello world program
