@@ -48,13 +48,13 @@ const PROGRAM_PATH = path.resolve(__dirname, '../../dist/program');
  *   - `npm run build:program-c`
  *   - `npm run build:program-rust`
  */
-const PROGRAM_SO_PATH = path.join(PROGRAM_PATH, 'solana_bpf_helloworld.so');
+const PROGRAM_SO_PATH = path.join(PROGRAM_PATH, 'solana-hugo-helloworld.so');
 
 /**
  * Path to the keypair of the deployed program.
- * This file is created when running `solana program deploy dist/program/solana_bpf_helloworld.so`
+ * This file is created when running `solana program deploy dist/program/solana-hugo-helloworld.so`
  */
-const PROGRAM_KEYPAIR_PATH = path.join(PROGRAM_PATH, 'solana_bpf_helloworld-keypair.json');
+const PROGRAM_KEYPAIR_PATH = path.join(PROGRAM_PATH, 'solana-hugo-helloworld.json');
 
 /**
  * The state of a greeting account managed by the hello world program
