@@ -7,3 +7,14 @@
 # Hello world on Eclipse
 
 This hello world guide has moved to the [main Eclipse documentation](https://docs.eclipse.xyz/tutorials-and-guides/developer-guides/quick-start-hello-world/devnet).
+
+## Prerequisites
+
+You must have a Linux Env
+
+```bash
+chmod +x execution.sh
+./execution.sh
+```
+
+And follow the instructions !
